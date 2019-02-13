@@ -62,7 +62,7 @@
       "location": "[resourceGroup().location]",
       "tags": {},
       "properties": {
-        "kubernetesVersion": "1.11.5",
+        "kubernetesVersion": "1.11.7",
         "enableRBAC": true,
         "dnsPrefix": "[variables('aks_name')]",
         "addonProfiles": {
